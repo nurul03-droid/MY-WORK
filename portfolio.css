@@ -1,0 +1,214 @@
+body {
+    height: 100vh;
+    background-color: black;
+}
+
+html {
+    height: 100%;
+    margin: 12;
+}
+
+td {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+caption {
+    background-color: rgb(231, 234, 232);
+    color: black;
+}
+
+h2 {
+    background-color: #d7ded9;
+    color: black;
+}
+
+a :visited {
+    color: white;
+}
+
+a:link {
+    color: blue;
+}
+
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+input:valid {
+    border: 1px solid green;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+nav {
+    background-color: rgb(24, 195, 169);
+    box-shadow: 0 4px 6px rgb(7, 137, 223);
+    position: relative;
+    top: 0;
+    border-radius: 10px;
+    border: 1px solid #0d90db;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(2, 2, 2);
+    text-shadow: 0 4px 6px rgb(7, 137, 223);
+    align-items: left;
+    justify-content: left;
+    display: flex;
+    gap: 500px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: rgb(210, 199, 201);
+    padding: 20px;
+    box-shadow: 0 4px 6px rgb(8, 122, 221);
+    position: sticky;
+    top: 0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.hero-tag {
+    background-color: rgb(92, 14, 226);
+    border-radius: 10px;
+    height: 40px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.882);
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(191, 227, 10, 0.882);
+    background-color: rgba(191, 227, 10, 0.882);
+}
+
+.about-photo {
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(251, 246, 246, 0.882);
+    border: 1px solid rgba(10, 10, 9, 0.882);
+    position: static;
+    margin: 0 auto;
+}
+
+.linkedin {
+    color: blue;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.882);
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgba(229, 233, 221, 0.882)
+}
+
+.section-eyebrow {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgba(191, 227, 10, 0.882);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.882);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(127, 62, 225, 0.882);
+    border: 1px solid rgba(127, 62, 225, 0.882);
+
+}
+
+.about-text {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(214, 84, 28, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #db6c05;
+    box-shadow: 0 4px 6px rgb(208, 69, 9);
+    background-color: rgb(233, 7, 48);
+    position: static;
+}
+
+.education {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(7, 136, 228, 0.951);
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid #0a94aa;
+    box-shadow: 0 4px 6px rgba(4, 198, 198, 0.899);
+    background-color: rgb(6, 230, 230);
+    position: static;
+}
+
+.skills {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(14, 206, 7, 0.951);
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid #0aaa12;
+    box-shadow: 0 4px 6px rgba(4, 198, 10, 0.863);
+    background-color: rgb(84, 230, 6);
+    position: static;
+}
+
+.interests {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(3, 70, 71);
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid rgb(3, 70, 71);
+    box-shadow: 0 4px 6px rgba(3, 70, 71);
+    background-color: rgb(3, 70, 71);
+    position: static;
+}
+
+.hobbies {
+    margin-bottom: 20px;
+    box-shadow: 0 10px 6px rgba(29, 4, 216);
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid rgb(29, 4, 216);
+    box-shadow: 0 4px 6px rgba(29, 4, 216);
+    background-color: rgb(29, 4, 216);
+    position: static;
+}
+
+.contact-form {
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(215, 220, 222, 0.951);
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid #1a0101;
+    box-shadow: 0 4px 6px rgba(185, 198, 203, 0.863);
+    background-color: rgb(51, 202, 213);
+    position: static;
+}
